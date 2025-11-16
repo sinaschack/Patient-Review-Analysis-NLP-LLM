@@ -41,7 +41,7 @@ The project demonstrates skills in text preprocessing, sentiment analysis, topic
 * Normalize topics into consistent categories (e.g., “Staff Behavior,” “Waiting Times”)
 * Aggregate insights across hospitals to detect common pain points
 
-### Classical Topic Modeling with Gensim
+### Topic Modeling with Gensim
 
 * Preprocess text using NLTK: stopword removal, tokenization, lemmatization
 * Build a Gensim dictionary and corpus from negative patient reviews
