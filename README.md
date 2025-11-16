@@ -41,6 +41,14 @@ The project demonstrates skills in text preprocessing, sentiment analysis, topic
 * Normalize topics into consistent categories (e.g., “Staff Behavior,” “Waiting Times”)
 * Aggregate insights across hospitals to detect common pain points
 
+### Classical Topic Modeling with Gensim
+
+* Preprocess text using NLTK: stopword removal, tokenization, lemmatization
+* Build a Gensim dictionary and corpus from negative patient reviews
+* Train a Gensim LDA model to extract 10 baseline topics
+* Analyze top words per topic to understand recurring patient concerns
+* Provides a benchmark for comparing unsupervised BERTopic and LLM-driven topic extraction
+
 ### Visualization and Insights
 
 * Topic frequency counts and heatmaps
