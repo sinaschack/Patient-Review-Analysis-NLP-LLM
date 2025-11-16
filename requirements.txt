@@ -1,0 +1,18 @@
+numpy==1.26.4  
+pandas==2.2.2  
+matplotlib==3.8.3  
+seaborn==0.13.2  
+wordcloud==1.9.4  
+nltk==3.9.1  
+gensim==4.3.3  
+pyldavis==3.4.1  
+bertopic==0.17.3  :contentReference[oaicite:0]{index=0}  
+umap‑learn==0.5.7  :contentReference[oaicite:1]{index=1}  
+transformers==4.48.1  :contentReference[oaicite:2]{index=2}  
+torch==2.0.1  :contentReference[oaicite:3]{index=3}  
+accelerate==1.8.1  :contentReference[oaicite:4]{index=4}  
+bitsandbytes==0.39.1  :contentReference[oaicite:5]{index=5}  
+huggingface‑hub==0.24.7  :contentReference[oaicite:6]{index=6}  
+googletrans==4.0.0‑rc1  
+tabulate==0.9.0  
+tqdm==4.67.1  
