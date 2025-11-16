@@ -1,0 +1,17 @@
+numpy
+pandas
+matplotlib
+seaborn
+wordcloud
+nltk
+gensim
+pyldavis
+bertopic
+umap-learn
+transformers
+torch
+accelerate
+bitsandbytes
+huggingface_hub
+googletrans
+tabulate
