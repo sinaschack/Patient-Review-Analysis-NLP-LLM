@@ -20,7 +20,7 @@ Here is a **short, clean, ready-to-paste “How to Run the Code” section** for
 This project contains **two notebooks**:
 
 1. **`topic_modelling_and_sentiment_analysis_of_patient_reviews.ipynb`**
-   *Runs without GPU* — preprocessing, sentiment analysis, BERTopic, LDA, visualizations.
+   *Runs without GPU* — preprocessing, sentiment analysis, BERTopic, visualizations.
 
 2. **`llm_topic_extraction_patient_reviews.ipynb`**
    *Requires GPU* — Falcon-7B topic extraction and LLM-based insights.
