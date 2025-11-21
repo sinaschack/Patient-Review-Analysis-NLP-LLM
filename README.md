@@ -11,8 +11,6 @@ This project applies **advanced NLP and Large Language Models (LLMs)** to extrac
 
 The project demonstrates skills in text preprocessing, sentiment analysis, topic modeling, LLM application, visualization, and actionable insights generation.
 
-Here is a **short, clean, ready-to-paste “How to Run the Code” section** for your README—nothing extra, just exactly what you need.
-
 ---
 
 # **How to Run the Code**
