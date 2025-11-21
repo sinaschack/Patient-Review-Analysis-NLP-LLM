@@ -57,7 +57,7 @@ This project contains **two notebooks**:
 2. Set runtime to **GPU**:
    *Runtime → Change runtime type → GPU*
 
-3. Continue with Notebook 1 guide, see above, starting at Step 2.
+3. Continue with the Notebook 1 guide from Step 2 to 5.
 
 ---
 
