@@ -46,7 +46,7 @@ This project contains **two notebooks**:
    ```
 4. Set the correct filepath: replace /content/drive/My Drive/Colab Notebooks/google_reviews_synthetic.csv with your file path in the notebook. Do the same with trustpilot_reviews_synthetic.csv. 
 
-5. Run all cells top-to-bottom.
+5. In Google Colab, select Runtime -> Run all.
 
 ---
 
