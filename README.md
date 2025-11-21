@@ -1,4 +1,6 @@
 # Patient-Feedback-Analysis-Using-NLP-and-LLMs
+
+# Summary
 Analyzing patient feedback using NLP and LLMs to extract topics, detect sentiment, and generate actionable insights for healthcare management.
 
 Analyze patient reviews to identify themes, sentiment, and actionable insights using **NLP topic modeling (BERTopic)** and **LLM-driven topic extraction (Falcon-7B-Instruct)**. Features data preprocessing, sentiment filtering, topic extraction, visualization, and AI-augmented summarization for healthcare decision-making.
@@ -8,6 +10,56 @@ Analyze patient reviews to identify themes, sentiment, and actionable insights u
 This project applies **advanced NLP and Large Language Models (LLMs)** to extract insights from patient feedback collected from Google and Trustpilot. It combines **unsupervised topic modeling (BERTopic)** with **instruction-based LLM topic extraction**, generating structured, human-readable themes from unstructured text. The analysis helps hospitals identify recurring issues, patient pain points, and areas for service improvement.
 
 The project demonstrates skills in text preprocessing, sentiment analysis, topic modeling, LLM application, visualization, and actionable insights generation.
+
+Here is a **short, clean, ready-to-paste “How to Run the Code” section** for your README—nothing extra, just exactly what you need.
+
+---
+
+# **How to Run the Code**
+
+This project contains **two notebooks**:
+
+1. **`topic_modelling_and_sentiment_analysis_of_patient_reviews.ipynb`**
+   *Runs without GPU* — preprocessing, sentiment analysis, BERTopic, LDA, visualizations.
+
+2. **`llm_topic_extraction_patient_reviews.ipynb`**
+   *Requires GPU* — Falcon-7B topic extraction and LLM-based insights.
+
+---
+
+## **1. Running Notebook 1 (No GPU Required)**
+
+1. Open the notebook in Google Colab (or locally).
+
+2. Mount Google Drive if using Colab:
+
+   ```python
+   from google.colab import drive
+   drive.mount('/content/drive', force_remount=True)
+   ```
+
+3. Upload the data files into google drive. 
+
+   ```
+   google_reviews_synthetic.csv
+   trustpilot_reviews_synthetic.csv
+   ```
+4. Set the correct filepath: replace /content/drive/My Drive/Colab Notebooks/google_reviews_synthetic.csv with your file path in the notebook. Do the same with trustpilot_reviews_synthetic.csv. 
+
+5. Run all cells top-to-bottom.
+
+---
+
+## **2. Running Notebook 2 (GPU Required)**
+
+1. Open the notebook in Google Colab.
+
+2. Set runtime to **GPU**:
+   *Runtime → Change runtime type → GPU*
+
+3. Continue with Notebook 1 guide, see above, starting at Step 2.
+
+---
 
 ## Data
 
